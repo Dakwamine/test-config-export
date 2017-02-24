@@ -1,5 +1,6 @@
 module:
   automated_cron: 0
+  basic_auth: 0
   block: 0
   block_content: 0
   breakpoint: 0
@@ -7,10 +8,12 @@ module:
   color: 0
   comment: 0
   config: 0
+  conflict: 0
   contact: 0
   contextual: 0
   datetime: 0
   dblog: 0
+  deploy: 0
   dynamic_page_cache: 0
   editor: 0
   field: 0
@@ -20,15 +23,21 @@ module:
   help: 0
   history: 0
   image: 0
+  key_value: 0
   link: 0
   menu_ui: 0
+  multiversion: 0
   node: 0
   options: 0
   page_cache: 0
   path: 0
   quickedit: 0
   rdf: 0
+  relaxed: 0
+  replication: 0
+  rest: 0
   search: 0
+  serialization: 0
   shortcut: 0
   system: 0
   taxonomy: 0
@@ -38,9 +47,11 @@ module:
   update: 0
   user: 0
   views_ui: 0
+  workspace: 0
   menu_link_content: 1
   views: 10
   standard: 1000
+  readonlymode: 9999
 theme:
   stable: 0
   classy: 0

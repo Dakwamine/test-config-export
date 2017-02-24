@@ -1,0 +1,39 @@
+uuid: a5a5e7ce-fb41-43ef-88a5-7f3d5687af26
+langcode: en
+status: true
+dependencies:
+  module:
+    - basic_auth
+    - relaxed
+    - serialization
+    - user
+_core:
+  default_config_hash: q-_wEhAFjuVW5NVXUq_tYAlIHJo7m_cr79K1eaht-mU
+id: relaxed.attachment
+plugin_id: 'relaxed:attachment'
+granularity: method
+configuration:
+  HEAD:
+    supported_formats:
+      - json
+    supported_auth:
+      - cookie
+      - basic_auth
+  GET:
+    supported_formats:
+      - json
+    supported_auth:
+      - cookie
+      - basic_auth
+  PUT:
+    supported_formats:
+      - json
+    supported_auth:
+      - cookie
+      - basic_auth
+  DELETE:
+    supported_formats:
+      - json
+    supported_auth:
+      - cookie
+      - basic_auth

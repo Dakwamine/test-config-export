@@ -1,0 +1,21 @@
+uuid: 655c22d7-781a-47f7-9061-c8a570f1ef8d
+langcode: en
+status: true
+dependencies:
+  module:
+    - basic_auth
+    - relaxed
+    - serialization
+    - user
+_core:
+  default_config_hash: Jb_BnSsCOMpfU5hGPlbmZmLysgT0ZmFBLNjEWIZDJEY
+id: relaxed.revs_diff
+plugin_id: 'relaxed:revs_diff'
+granularity: method
+configuration:
+  POST:
+    supported_formats:
+      - json
+    supported_auth:
+      - cookie
+      - basic_auth
